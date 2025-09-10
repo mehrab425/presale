@@ -1,0 +1,13 @@
+{
+  "name": "presalepro",
+  "version": "1.0.0",
+  "description": "Advanced Presale Smart Contract with customizable options",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy_presale.js --network sepolia"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
